@@ -1,0 +1,19 @@
+.nav {
+    position: sticky;
+    background-color: rgb(28, 87, 101);
+    margin-left: 20px;
+    width: 20%;
+    border-radius: 17px;
+    list-style: none;
+}
+
+.navItem {
+    text-align: center;
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+.navItem:hover {
+    color: rgb(97, 96, 95);
+}
