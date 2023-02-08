@@ -1,12 +1,13 @@
 import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import { CoverScreen } from "./components/CoverScreen";
-import { NavBar } from "./components/NavBar";
+import { Page } from "./components/Page";
 
 function App() {
     return (
         <div className="App">
             <CoverScreen />
-            <NavBar />
+            <Page />
         </div>
     );
 }

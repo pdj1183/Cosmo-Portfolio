@@ -1,9 +1,12 @@
 * {
-  margin: 0%;
-  padding: 0%;
-  overflow: hidden;
+    margin: 0%;
+    padding: 0%;
 }
 
-.coverScreenImg {
-  width: 100vw;
+.coverScreen {
+    height: 100vh;
+    background-image: url(../assets/img/ween40-2.jpg);
+    background-size: 105%;
+    background-attachment: fixed;
+    background-position: center;
 }
