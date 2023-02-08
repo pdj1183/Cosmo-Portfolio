@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Cosmo-Portfolio/static/css/main.ab718d7a.css",
+    "main.js": "/Cosmo-Portfolio/static/js/main.380fced2.js",
+    "static/js/787.02ccdf48.chunk.js": "/Cosmo-Portfolio/static/js/787.02ccdf48.chunk.js",
+    "static/media/ween40-2.jpg": "/Cosmo-Portfolio/static/media/ween40-2.c954b17cacd996888691.jpg",
+    "index.html": "/Cosmo-Portfolio/index.html",
+    "main.ab718d7a.css.map": "/Cosmo-Portfolio/static/css/main.ab718d7a.css.map",
+    "main.380fced2.js.map": "/Cosmo-Portfolio/static/js/main.380fced2.js.map",
+    "787.02ccdf48.chunk.js.map": "/Cosmo-Portfolio/static/js/787.02ccdf48.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab718d7a.css",
+    "static/js/main.380fced2.js"
+  ]
+}
