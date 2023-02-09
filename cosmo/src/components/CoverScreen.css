@@ -6,7 +6,8 @@
 .coverScreen {
     height: 100vh;
     background-image: url(../assets/img/ween40-2.jpg);
-    background-size: 105%;
     background-attachment: fixed;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
