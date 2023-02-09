@@ -1,13 +1,21 @@
-nav.navbar {
-    margin-left: -100%;
+nav.navbar.nav-open {
+    margin-left: 10%;
     position: sticky;
     top: 30vh;
     background-color: rgb(95, 95, 95);
-    width: 100%;
+    width: 20%;
     border-radius: 17px;
     list-style: none;
     text-align: center;
     z-index: 2;
+    transition: 0.32s ease-in-out;
+}
+nav.navbar.nav-closed {
+    background-color: rgb(95, 95, 95);
+    border-radius: 10px;
+    width: 56px;
+    transition: 0.32s ease-in-out;
+    margin: 30px;
 }
 
 .navItem {
@@ -18,7 +26,4 @@ nav.navbar {
 
 .navItem:hover {
     color: rgb(91, 91, 91);
-}
-nav.navbar a.navbar-brand {
-    width: 1%;
 }
