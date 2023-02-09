@@ -5,9 +5,9 @@ import Container from "react-bootstrap/Container";
 
 export const NavBar = () => {
     return (
-        <Navbar expand="lg">
+        <Navbar className="nav" expand="lg">
             <Container>
-                <Navbar.Toggle aria-controls="basic-navbar-nav">
+                <Navbar.Toggle aria-controls="basic-nav-nav">
                     <span className="nav-toggle"></span>
                 </Navbar.Toggle>
                 <Navbar.Collapse id="basic-navbar-nav">
