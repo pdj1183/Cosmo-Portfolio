@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.highlight-page {
+    height: 200vh;
+    background-image: linear-gradient(#f4ac7d, #80c1f6, #aa93e5);
+}
