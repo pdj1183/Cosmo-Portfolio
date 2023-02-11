@@ -24,7 +24,7 @@ export const Page = () => {
     );
 
     return (
-        <section>
+        <div className="page">
             <Navbar
                 className={openNav ? "nav-open" : "nav-closed"}
                 expand={false}
@@ -77,6 +77,6 @@ export const Page = () => {
             <div className="page">
                 <img src={currentImg} className="centerImg" alt="page-img" />
             </div>
-        </section>
+        </div>
     );
 };

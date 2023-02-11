@@ -1,4 +1,4 @@
-body {
+div.body {
     background-color: #aa93e5;
 }
 
@@ -7,7 +7,7 @@ nav.navbar.nav-open {
     position: sticky;
     top: 30vh;
     background-color: rgb(95, 95, 95);
-    width: 30%;
+    width: 300px;
     border-radius: 20px;
     list-style: none;
     text-align: center;
@@ -19,7 +19,8 @@ nav.navbar.nav-closed {
     border-radius: 10px;
     width: 56px;
     transition: 0.32s ease-in-out;
-    margin: 30px;
+    top: 100px;
+    left: 100px;
 }
 
 .navItem {

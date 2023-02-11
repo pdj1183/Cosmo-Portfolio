@@ -2,8 +2,12 @@
     margin: 0;
     padding: 0;
 }
+div.cover {
+    background-color: #f4ac7d;
+}
 
 .highlight-page {
+    z-index: 1;
     height: 200vh;
     background-image: linear-gradient(#f4ac7d, #80c1f6, #aa93e5);
 }
