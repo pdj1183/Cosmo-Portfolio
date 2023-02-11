@@ -1,6 +1,16 @@
+@font-face {
+    font-family: AKOODI;
+    src: url("../assets/fonts/AKOODIpersonal\ use.ttf");
+    font-weight: 500;
+}
+
 * {
     margin: 0%;
     padding: 0%;
+}
+
+body {
+    background: #f4ac7d;
 }
 
 .coverScreen {
@@ -10,4 +20,36 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+h1 {
+    position: absolute;
+    text-align: center;
+    color: rgb(171, 231, 226);
+    width: 100%;
+    font-family: "AKOODI", sans-serif !important;
+}
+
+.bottom {
+    margin-top: 10vh;
+}
+.h1Mobile {
+    font-size: 7.5rem;
+}
+
+.h1Desktop {
+    font-size: 12rem;
+}
+
+h1.cosmoMobile {
+    font-size: 7.5rem;
+    transform: translateY(-30vh);
+    top: 30vh;
+    position: sticky !important;
+}
+h1.cosmoDesktop {
+    font-size: 12rem;
+    transform: translateY(-30vh);
+    top: 30vh;
+    position: sticky !important;
 }
