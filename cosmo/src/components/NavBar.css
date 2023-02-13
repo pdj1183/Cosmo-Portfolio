@@ -4,14 +4,14 @@ div.body {
 
 nav.navbar.nav-open {
     margin-left: 10%;
-    position: sticky;
-    top: 30vh;
+    position: absolute;
+    display: block;
     background-color: rgb(95, 95, 95);
     width: 300px;
     border-radius: 20px;
     list-style: none;
     text-align: center;
-    z-index: 2;
+    z-index: 6;
     transition: 0.32s ease-in-out;
 }
 nav.navbar.nav-closed {
@@ -19,8 +19,10 @@ nav.navbar.nav-closed {
     border-radius: 10px;
     width: 56px;
     transition: 0.32s ease-in-out;
-    top: 100px;
-    left: 100px;
+    position: absolute;
+    margin-left: 5%;
+    display: block;
+    z-index: 6;
 }
 
 .navItem {

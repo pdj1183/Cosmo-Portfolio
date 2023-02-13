@@ -1,10 +1,10 @@
 div.page {
     height: 100vh;
+    width: 100vw;
     background-color: #aa93e5;
-}
-
-.page {
-    justify-content: center;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .centerImg {
@@ -12,12 +12,12 @@ div.page {
     width: auto;
 }
 
-img {
+img.currentImg {
+    margin-left: auto;
+    margin-right: auto;
     max-width: 80vw;
-    max-height: 90vh;
+    max-height: 85vh;
     border-radius: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 0);
+    position: relative !important;
+    display: block;
 }
