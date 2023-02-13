@@ -5,7 +5,6 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
 export const Page = () => {
-    const [currentImg, setCurrentImg] = useState();
     const [openNav, setOpenNav] = useState(true);
 
     const onUpdateCurrentImg = (img) => {
@@ -22,6 +21,7 @@ export const Page = () => {
     const images = importAll(
         require.context("../assets/img", false, /\.(png|jpe?g|svg)$/)
     );
+    const [currentImg, setCurrentImg] = useState(images["roundtown3.jpeg"]);
 
     return (
         <div className="page">
@@ -38,20 +38,22 @@ export const Page = () => {
                     <Nav className="flex-lg-column">
                         <Nav.Item>
                             <Nav.Link
-                                onClick={() =>
+                                onClick={() => {
                                     onUpdateCurrentImg(
                                         images["roundtown3.jpeg"]
-                                    )
-                                }>
+                                    );
+                                    setOpenNav(!openNav);
+                                }}>
                                 First
                             </Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
                             <Nav.Link
                                 className="navItem"
-                                onClick={() =>
-                                    onUpdateCurrentImg(images["17.jpeg"])
-                                }>
+                                onClick={() => {
+                                    onUpdateCurrentImg(images["17.jpeg"]);
+                                    setOpenNav(!openNav);
+                                }}>
                                 Second
                             </Nav.Link>
                         </Nav.Item>
@@ -74,9 +76,7 @@ export const Page = () => {
                 </Navbar.Collapse>
             </Navbar>
 
-            <div className="page">
-                <img src={currentImg} className="centerImg" alt="page-img" />
-            </div>
+            <img src={currentImg} className="currentImg" alt="page-img" />
         </div>
     );
 };

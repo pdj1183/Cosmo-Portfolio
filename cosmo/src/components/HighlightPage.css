@@ -2,12 +2,26 @@
     margin: 0;
     padding: 0;
 }
-div.cover {
-    background-color: #f4ac7d;
+
+img.high {
+    margin: 30px 0;
+    scale: auto;
+    position: relative;
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+    max-height: 90vh;
+    max-width: 90vw;
+}
+
+.hello {
+    text-align: center;
 }
 
 .highlight-page {
+    width: 100vw;
+    overflow-x: hidden;
     z-index: 1;
-    height: 200vh;
     background-image: linear-gradient(#f4ac7d, #80c1f6, #aa93e5);
+    align-items: center;
 }
