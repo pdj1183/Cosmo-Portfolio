@@ -2,6 +2,8 @@ import "./HighlightPage.css";
 import { Image } from "react-bootstrap";
 import { useState } from "react";
 import { Parallax } from "react-scroll-parallax";
+import LazyLoad from "react-lazyload";
+
 import first from "../assets/img/second11.jpeg";
 import second from "../assets/img/erik17.jpeg";
 import third from "../assets/img/sprk7.jpeg";
@@ -23,7 +25,9 @@ export const HighlightPage = () => {
                 endScroll={height}
                 shouldAlwaysCompleteAnimation
                 translateX={[-100, 0]}>
-                <Image className="high" src={first} alt="first" />
+                <LazyLoad>
+                    <img className="high" src={first} alt="first" />
+                </LazyLoad>
             </Parallax>
             <Parallax
                 className="hello"
@@ -31,7 +35,9 @@ export const HighlightPage = () => {
                 startScroll={height}
                 endScroll={2 * height}
                 translateX={[100, 0]}>
-                <Image className="high" src={second} alt="second" />
+                <LazyLoad>
+                    <img className="high" src={second} alt="second" />
+                </LazyLoad>
             </Parallax>
             <Parallax
                 className="hello"
@@ -39,13 +45,17 @@ export const HighlightPage = () => {
                 startScroll={2 * height}
                 endScroll={3 * height}
                 translateX={[100, 0]}>
-                <Image className="high" src={third} alt="third" />
+                <LazyLoad>
+                    <img className="high" src={third} alt="third" />
+                </LazyLoad>
             </Parallax>
             <Parallax
                 className="hello"
                 scale={[0.25, 1]}
                 shouldAlwaysCompleteAnimation>
-                <Image className="high" src={fourth} alt="fourth" />
+                <LazyLoad>
+                    <img className="high" src={fourth} alt="fourth" />
+                </LazyLoad>
             </Parallax>
         </section>
     );
