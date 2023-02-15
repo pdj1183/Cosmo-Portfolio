@@ -1,5 +1,4 @@
 import "./HighlightPage.css";
-import { Image } from "react-bootstrap";
 import { useState } from "react";
 import { Parallax } from "react-scroll-parallax";
 import LazyLoad from "react-lazyload";
@@ -12,7 +11,6 @@ import fourth from "../assets/img/465EAA08-C283-4A32-AE5C-FB4C529ABB37.jpeg";
 export const HighlightPage = () => {
     const [height, setHeight] = useState(window.innerHeight);
     window.addEventListener("resize", () => {
-        // We execute the same script as before
         let h = window.innerHeight;
         setHeight(h);
         console.log(h);
@@ -52,8 +50,8 @@ export const HighlightPage = () => {
             <Parallax
                 className="hello"
                 scale={[0.25, 1]}
-                startScroll={2.5 * height}
-                endScroll={3 * height}
+                startScroll={3 * height}
+                endScroll={4 * height}
                 shouldAlwaysCompleteAnimation>
                 <LazyLoad>
                     <img className="high" src={fourth} alt="fourth" />
