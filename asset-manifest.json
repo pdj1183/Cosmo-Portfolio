@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Cosmo-Portfolio/static/css/main.6c175199.css",
-    "main.js": "/Cosmo-Portfolio/static/js/main.1f10d90b.js",
+    "main.css": "/Cosmo-Portfolio/static/css/main.145c02f9.css",
+    "main.js": "/Cosmo-Portfolio/static/js/main.c2fa3590.js",
     "static/js/787.02ccdf48.chunk.js": "/Cosmo-Portfolio/static/js/787.02ccdf48.chunk.js",
     "static/media/moab22.jpg": "/Cosmo-Portfolio/static/media/moab22.f057c1e8b7876be13dfe.jpg",
     "static/media/GAN4.jpeg": "/Cosmo-Portfolio/static/media/GAN4.1c80a627ca9914d52b26.jpeg",
@@ -86,12 +86,12 @@
     "static/media/TB51.jpeg": "/Cosmo-Portfolio/static/media/TB51.1682bf36c2fb1839f5a6.jpeg",
     "static/media/IMG_4076.jpeg": "/Cosmo-Portfolio/static/media/IMG_4076.9e1b238e09770fb6033a.jpeg",
     "index.html": "/Cosmo-Portfolio/index.html",
-    "main.6c175199.css.map": "/Cosmo-Portfolio/static/css/main.6c175199.css.map",
-    "main.1f10d90b.js.map": "/Cosmo-Portfolio/static/js/main.1f10d90b.js.map",
+    "main.145c02f9.css.map": "/Cosmo-Portfolio/static/css/main.145c02f9.css.map",
+    "main.c2fa3590.js.map": "/Cosmo-Portfolio/static/js/main.c2fa3590.js.map",
     "787.02ccdf48.chunk.js.map": "/Cosmo-Portfolio/static/js/787.02ccdf48.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6c175199.css",
-    "static/js/main.1f10d90b.js"
+    "static/css/main.145c02f9.css",
+    "static/js/main.c2fa3590.js"
   ]
 }
