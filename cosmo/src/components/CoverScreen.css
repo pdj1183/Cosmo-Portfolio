@@ -53,14 +53,12 @@ h1 {
 h1.cosmoMobile {
     font-size: 7.5rem;
     transform: translateY(-45.5vh);
-    top: 42.5vh;
+    top: 40.5vh;
     position: sticky !important;
-    z-index: 5;
 }
 h1.cosmoDesktop {
     font-size: 12rem;
     transform: translateY(-45.5vh);
-    top: 42.5vh;
+    top: 38.5vh;
     position: sticky !important;
-    z-index: 5;
 }

@@ -43,7 +43,7 @@ export const HighlightPage = () => {
                 className="hello"
                 shouldAlwaysCompleteAnimation
                 startScroll={2 * height}
-                endScroll={3 * height}
+                endScroll={2.5 * height}
                 translateX={[100, 0]}>
                 <LazyLoad>
                     <img className="high" src={third} alt="third" />
@@ -52,6 +52,8 @@ export const HighlightPage = () => {
             <Parallax
                 className="hello"
                 scale={[0.25, 1]}
+                startScroll={2.5 * height}
+                endScroll={3 * height}
                 shouldAlwaysCompleteAnimation>
                 <LazyLoad>
                     <img className="high" src={fourth} alt="fourth" />

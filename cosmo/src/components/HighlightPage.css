@@ -17,12 +17,12 @@
 .hello {
     text-align: center;
     overflow-x: hidden;
+    z-index: 7;
 }
 
 .highlight-page {
     width: 100vw;
     overflow-x: hidden;
-    z-index: 1;
     background-image: linear-gradient(#f4ac7d, #80c1f6, #aa93e5);
     align-items: center;
 }
