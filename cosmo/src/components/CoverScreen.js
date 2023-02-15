@@ -6,7 +6,7 @@ export const CoverScreen = () => {
     const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
 
     return (
-        <span>
+        <div>
             <section className={isMobile ? "coverMobile" : "coverDesktop"}>
                 <h1 className={isMobile ? "h1Mobile" : "h1Desktop"}>
                     <Parallax
@@ -27,6 +27,6 @@ export const CoverScreen = () => {
                     Cosmo
                 </Parallax>
             </h1>
-        </span>
+        </div>
     );
 };

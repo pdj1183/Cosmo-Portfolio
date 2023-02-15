@@ -7,13 +7,11 @@ import { ParallaxProvider } from "react-scroll-parallax";
 
 function App() {
     return (
-        <div className="App">
-            <ParallaxProvider>
-                <CoverScreen />
-                <HighlightPage />
-                <Page />
-            </ParallaxProvider>
-        </div>
+        <ParallaxProvider>
+            <CoverScreen />
+            <HighlightPage />
+            <Page />
+        </ParallaxProvider>
     );
 }
 

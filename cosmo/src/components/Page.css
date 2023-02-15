@@ -8,7 +8,6 @@ div.page {
 }
 
 .centerImg {
-    position: relative;
     width: auto;
 }
 
@@ -18,6 +17,4 @@ img.currentImg {
     max-width: 80vw;
     max-height: 85vh;
     border-radius: 20px;
-    position: relative !important;
-    display: block;
 }
