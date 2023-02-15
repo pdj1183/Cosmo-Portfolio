@@ -16,6 +16,8 @@ body {
 .coverDesktop {
     height: 100vh;
     width: 100vw;
+    align-items: center;
+    justify-content: center;
     background-image: url(../assets/img/ween40-2.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -32,7 +34,6 @@ body {
 }
 
 h1 {
-    position: absolute;
     text-align: center;
     color: rgb(171, 231, 226);
     width: 100%;
@@ -50,15 +51,15 @@ h1 {
     font-size: 12rem;
 }
 
-h1.cosmoMobile {
+.cosmoMobile {
     font-size: 7.5rem;
     transform: translateY(-45.5vh);
-    top: 40.5vh;
+    top: 41.5vh;
     position: sticky !important;
 }
-h1.cosmoDesktop {
+.cosmoDesktop {
     font-size: 12rem;
     transform: translateY(-45.5vh);
-    top: 38.5vh;
+    top: 41.5vh;
     position: sticky !important;
 }
