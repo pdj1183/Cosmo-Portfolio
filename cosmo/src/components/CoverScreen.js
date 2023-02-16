@@ -16,7 +16,7 @@ export const CoverScreen = () => {
                     </Parallax>
                     <Parallax
                         className="bottom"
-                        translateX={["0vw", "-100vw"]}
+                        translateX={[0, -10]}
                         shouldAlwaysCompleteAnimation={true}>
                         By
                     </Parallax>

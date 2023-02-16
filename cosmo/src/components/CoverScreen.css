@@ -31,6 +31,7 @@ body {
     background-image: url(../assets/img/ween40-2.jpg);
     background-attachment: fixed;
     background-position: center;
+    background-size: auto;
 }
 
 h1 {
