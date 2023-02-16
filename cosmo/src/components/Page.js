@@ -77,6 +77,18 @@ export const Page = () => {
             </Navbar>
 
             <img src={currentImg} className="currentImg" alt="page-img" />
+            <img
+                src={images["erik14.jpeg"]}
+                className="currentImg"
+                alt="page-img"
+                style={{ verticalAlign: "top" }}
+            />
+            <img
+                src={images["sprk21.jpeg"]}
+                className="currentImg"
+                alt="page-img"
+                style={{ verticalAlign: "top" }}
+            />
         </div>
     );
 };

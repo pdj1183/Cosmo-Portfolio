@@ -23,9 +23,7 @@ export const HighlightPage = () => {
                 endScroll={height}
                 shouldAlwaysCompleteAnimation
                 translateX={[-100, 0]}>
-                <LazyLoad>
-                    <img className="high" src={first} alt="first" />
-                </LazyLoad>
+                <img className="high" src={first} alt="first" />
             </Parallax>
             <Parallax
                 className="hello"
@@ -33,9 +31,7 @@ export const HighlightPage = () => {
                 startScroll={height}
                 endScroll={2 * height}
                 translateX={[100, 0]}>
-                <LazyLoad>
-                    <img className="high" src={second} alt="second" />
-                </LazyLoad>
+                <img className="high" src={second} alt="second" />
             </Parallax>
             <Parallax
                 className="hello"
@@ -43,9 +39,7 @@ export const HighlightPage = () => {
                 startScroll={2 * height}
                 endScroll={2.5 * height}
                 translateX={[100, 0]}>
-                <LazyLoad>
-                    <img className="high" src={third} alt="third" />
-                </LazyLoad>
+                <img className="high" src={third} alt="third" />
             </Parallax>
             <Parallax
                 className="hello"
@@ -53,9 +47,7 @@ export const HighlightPage = () => {
                 startScroll={3 * height}
                 endScroll={4 * height}
                 shouldAlwaysCompleteAnimation>
-                <LazyLoad>
-                    <img className="high" src={fourth} alt="fourth" />
-                </LazyLoad>
+                d <img className="high" src={fourth} alt="fourth" />d{" "}
             </Parallax>
         </section>
     );

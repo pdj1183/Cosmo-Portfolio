@@ -4,8 +4,6 @@ div.body {
 
 nav.navbar.nav-open {
     margin-left: 10%;
-    position: absolute;
-    display: block;
     background-color: rgb(95, 95, 95);
     width: 300px;
     border-radius: 20px;
@@ -19,9 +17,7 @@ nav.navbar.nav-closed {
     border-radius: 10px;
     width: 56px;
     transition: 0.32s ease-in-out;
-    position: absolute;
     margin-left: 5%;
-    display: block;
     z-index: 6;
 }
 
