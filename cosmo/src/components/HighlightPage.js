@@ -1,7 +1,7 @@
 import "./HighlightPage.css";
 import { useState } from "react";
 import { Parallax } from "react-scroll-parallax";
-import LazyLoad from "react-lazyload";
+import { useMediaQuery } from "react-responsive";
 
 import first from "../assets/img/second11.jpeg";
 import second from "../assets/img/erik17.jpeg";
@@ -15,9 +15,12 @@ export const HighlightPage = () => {
         setHeight(h);
         console.log(h);
     });
+    const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
+
     return (
         <section className="highlight-page">
             <Parallax
+                disabled={isMobile}
                 className="hello"
                 startScroll={0}
                 endScroll={height}
@@ -26,6 +29,7 @@ export const HighlightPage = () => {
                 <img className="high" src={first} alt="first" />
             </Parallax>
             <Parallax
+                disabled={isMobile}
                 className="hello"
                 shouldAlwaysCompleteAnimation
                 startScroll={height}
@@ -34,6 +38,7 @@ export const HighlightPage = () => {
                 <img className="high" src={second} alt="second" />
             </Parallax>
             <Parallax
+                disabled={isMobile}
                 className="hello"
                 shouldAlwaysCompleteAnimation
                 startScroll={2 * height}
@@ -42,12 +47,13 @@ export const HighlightPage = () => {
                 <img className="high" src={third} alt="third" />
             </Parallax>
             <Parallax
+                disabled={isMobile}
                 className="hello"
                 scale={[0.25, 1]}
                 startScroll={3 * height}
                 endScroll={4 * height}
                 shouldAlwaysCompleteAnimation>
-                d <img className="high" src={fourth} alt="fourth" />d{" "}
+                <img className="high" src={fourth} alt="fourth" />
             </Parallax>
         </section>
     );
