@@ -221,6 +221,150 @@ export const Page = () => {
                         }
                     }}
                 />
+                <img
+                    src={images["salidaOP12.jpeg"]}
+                    className={enlargImg === 13 ? "enlargeImg" : "currentImg"}
+                    alt="page-img"
+                    onClick={() => {
+                        if (enlargImg !== 13) {
+                            setEnlargImg(13);
+                        } else {
+                            setEnlargImg(0);
+                        }
+                    }}
+                />
+                <img
+                    src={images["ruby8.jpeg"]}
+                    className={enlargImg === 14 ? "enlargeImg" : "currentImg"}
+                    alt="page-img"
+                    onClick={() => {
+                        if (enlargImg !== 14) {
+                            setEnlargImg(14);
+                        } else {
+                            setEnlargImg(0);
+                        }
+                    }}
+                />
+                <img
+                    src={images["phonOPEN2.jpeg"]}
+                    className={enlargImg === 15 ? "enlargeImg" : "currentImg"}
+                    alt="page-img"
+                    onClick={() => {
+                        if (enlargImg !== 15) {
+                            setEnlargImg(15);
+                        } else {
+                            setEnlargImg(0);
+                        }
+                    }}
+                />
+                <img
+                    src={images["muddinbeach9-2.jpeg"]}
+                    className={enlargImg === 16 ? "enlargeImg" : "currentImg"}
+                    alt="page-img"
+                    onClick={() => {
+                        if (enlargImg !== 16) {
+                            setEnlargImg(16);
+                        } else {
+                            setEnlargImg(0);
+                        }
+                    }}
+                />
+                <img
+                    src={images["newdrone3-HDR.jpeg"]}
+                    className={enlargImg === 17 ? "enlargeImg" : "currentImg"}
+                    alt="page-img"
+                    onClick={() => {
+                        if (enlargImg !== 17) {
+                            setEnlargImg(17);
+                        } else {
+                            setEnlargImg(0);
+                        }
+                    }}
+                />
+                <img
+                    src={images["moontings19.jpeg"]}
+                    className={enlargImg === 18 ? "enlargeImg" : "currentImg"}
+                    alt="page-img"
+                    onClick={() => {
+                        if (enlargImg !== 18) {
+                            setEnlargImg(18);
+                        } else {
+                            setEnlargImg(0);
+                        }
+                    }}
+                />{" "}
+                <img
+                    src={images["milkynavajorocks4.jpeg"]}
+                    className={enlargImg === 19 ? "enlargeImg" : "currentImg"}
+                    alt="page-img"
+                    onClick={() => {
+                        if (enlargImg !== 19) {
+                            setEnlargImg(19);
+                        } else {
+                            setEnlargImg(0);
+                        }
+                    }}
+                />
+                <img
+                    src={images["ivann9.jpeg"]}
+                    className={enlargImg === 20 ? "enlargeImg" : "currentImg"}
+                    alt="page-img"
+                    onClick={() => {
+                        if (enlargImg !== 21) {
+                            setEnlargImg(21);
+                        } else {
+                            setEnlargImg(0);
+                        }
+                    }}
+                />
+                <img
+                    src={images["ivann12.jpeg"]}
+                    className={enlargImg === 22 ? "enlargeImg" : "currentImg"}
+                    alt="page-img"
+                    onClick={() => {
+                        if (enlargImg !== 22) {
+                            setEnlargImg(22);
+                        } else {
+                            setEnlargImg(0);
+                        }
+                    }}
+                />
+                <img
+                    src={images["idk.jpeg"]}
+                    className={enlargImg === 23 ? "enlargeImg" : "currentImg"}
+                    alt="page-img"
+                    onClick={() => {
+                        if (enlargImg !== 23) {
+                            setEnlargImg(23);
+                        } else {
+                            setEnlargImg(0);
+                        }
+                    }}
+                />
+                <img
+                    src={images["desertdrone.jpeg"]}
+                    className={enlargImg === 24 ? "enlargeImg" : "currentImg"}
+                    alt="page-img"
+                    onClick={() => {
+                        if (enlargImg !== 24) {
+                            setEnlargImg(24);
+                        } else {
+                            setEnlargImg(0);
+                        }
+                    }}
+                />
+                <img
+                    src={images["coreshot10.jpeg"]}
+                    className={enlargImg === 25 ? "enlargeImg" : "currentImg"}
+                    alt="page-img"
+                    onClick={() => {
+                        if (enlargImg !== 25) {
+                            setEnlargImg(25);
+                        } else {
+                            setEnlargImg(0);
+                        }
+                    }}
+                />
             </div>
         </div>
     );
