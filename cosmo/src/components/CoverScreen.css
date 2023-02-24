@@ -18,7 +18,7 @@ body {
     width: 100vw;
     align-items: center;
     justify-content: center;
-    background-image: url(../assets/img/ween40-2.jpg);
+    background-image: url(https://github.com/pdj1183/Cosmo-Portfolio/blob/main/cosmo/img//ween40-2.jpg?raw=true);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,7 +28,7 @@ body {
 .coverMobile {
     height: 100vh;
     width: 100vw;
-    background-image: url(../assets/img/ween40-2.jpg);
+    background-image: url(https://github.com/pdj1183/Cosmo-Portfolio/blob/main/cosmo/img//ween40-2.jpg?raw=true);
     background-attachment: fixed;
     background-position: center;
     background-size: auto;
