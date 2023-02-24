@@ -1,18 +1,14 @@
 import "./Page.css";
 import "./NavBar.css";
 import { useState } from "react";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
 import { useMediaQuery } from "react-responsive";
 
 export const Page = () => {
-    const [openNav, setOpenNav] = useState(false);
-
     function importAll(r) {
         let images = {};
-        r.keys().map((item, index) => {
-            images[item.replace("./", "")] = r(item);
-        });
+        r.keys().map(
+            (item, index) => (images[item.replace("./", "")] = r(item))
+        );
         return images;
     }
 
