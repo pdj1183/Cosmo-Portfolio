@@ -18,6 +18,10 @@ img.currentImg {
     padding: 5px;
 }
 
+img.currentImg:hover {
+    background-color: #c2d7eb;
+}
+
 img.enlargeImg {
     width: auto;
     margin-left: auto;
