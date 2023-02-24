@@ -3,10 +3,10 @@ import { useState } from "react";
 import { Parallax } from "react-scroll-parallax";
 import { useMediaQuery } from "react-responsive";
 
-import first from "https://github.com/pdj1183/Cosmo-Portfolio/blob/main/cosmo/img/second11.jpeg?raw=true";
-import second from "https://github.com/pdj1183/Cosmo-Portfolio/blob/main/cosmo/img/erik17.jpeg?raw=true";
-import third from "https://github.com/pdj1183/Cosmo-Portfolio/blob/main/cosmo/img/sprk7.jpeg?raw=true";
-import fourth from "https://github.com/pdj1183/Cosmo-Portfolio/blob/main/cosmo/img//465EAA08-C283-4A32-AE5C-FB4C529ABB37.jpeg?raw=true";
+import first from "../assets/img/second11.jpeg";
+import second from "../assets/img/erik17.jpeg";
+import third from "../assets/img/sprk7.jpeg";
+import fourth from "../assets/img/465EAA08-C283-4A32-AE5C-FB4C529ABB37.jpeg";
 
 export const HighlightPage = () => {
     const [height, setHeight] = useState(window.innerHeight);
