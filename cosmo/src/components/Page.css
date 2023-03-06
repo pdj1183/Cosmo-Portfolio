@@ -1,14 +1,14 @@
-div.page {
+section.page {
     padding-top: 40vh;
     width: 100vw;
-    background-color: #aa93e5;
+    background-image: linear-gradient(#aa93e5, #80c1f6, #f4ac7d);
     text-align: center;
+    height: auto;
 }
 
 .desktop img {
     display: inline-flex;
     position: relative;
-    transition: 0.1s ease-in;
 }
 
 img.currentImg {
@@ -16,13 +16,23 @@ img.currentImg {
     max-width: 30vh;
     max-height: 30vh;
     padding: 5px;
+    z-index: 0;
+}
+
+img.currentImg:hover {
+    background-color: #c2d7eb;
 }
 
 img.enlargeImg {
     width: auto;
     margin-left: auto;
     margin-right: auto;
+    justify-content: center;
+    align-items: center;
     max-width: 80vw;
     max-height: 85vh;
     border-radius: 20px;
+}
+img.enlargeImg:hover {
+    background-color: #c2d7eb;
 }

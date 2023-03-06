@@ -22,7 +22,7 @@
 .hello {
     text-align: center;
     overflow-x: hidden;
-    z-index: 7;
+    z-index: 7 !important;
 }
 
 .highlight-page {
