@@ -8,9 +8,16 @@
     margin: 0%;
     padding: 0%;
 }
+.page {
+    height: 100vh;
+}
 
 body {
     background: #f4ac7d;
+}
+
+h1 {
+    height: 33vh;
 }
 
 .coverDesktop {
@@ -23,6 +30,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    overflow-x: hidden;
+    position: absolute;
 }
 
 .coverMobile {
@@ -32,6 +41,8 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-size: auto;
+    overflow-x: hidden;
+    position: absolute;
 }
 
 h1 {
@@ -41,9 +52,11 @@ h1 {
     font-family: "AKOODI", sans-serif !important;
 }
 
-.bottom {
-    margin-top: 10vh;
+.cosmo {
+    top: -35px;
+    position: sticky;
 }
+
 .h1Mobile {
     font-size: 7.5rem;
 }
@@ -57,10 +70,12 @@ h1 {
     transform: translateY(-45.5vh);
     top: 41.5vh;
     position: sticky !important;
+    z-index: 1;
 }
 .cosmoDesktop {
     font-size: 12rem;
     transform: translateY(-45.5vh);
     top: 41.5vh;
     position: sticky !important;
+    z-index: 1;
 }

@@ -7,26 +7,26 @@ export const CoverScreen = () => {
 
     return (
         <span>
-            <section className={isMobile ? "coverMobile" : "coverDesktop"}>
-                <h1 className={isMobile ? "h1Mobile" : "h1Desktop"}>
-                    <Parallax
-                        shouldAlwaysCompleteAnimation={true}
-                        scale={[1, 0]}>
-                        Photos
-                    </Parallax>
-                    <Parallax
-                        className="bottom"
-                        translateX={[0, -10]}
-                        shouldAlwaysCompleteAnimation={true}>
-                        By
-                    </Parallax>
-                </h1>
-            </section>
-            <h1 className={isMobile ? "cosmoMobile" : "cosmoDesktop"}>
-                <Parallax shouldAlwaysCompleteAnimation={true} scale={[1, 0.4]}>
-                    Cosmo
+            <section className={isMobile ? "coverMobile" : "coverDesktop"} />
+            <h1 className={isMobile ? "h1Mobile" : "h1Desktop"}>
+                <Parallax shouldAlwaysCompleteAnimation={true} scale={[1, 0]}>
+                    Photos
                 </Parallax>
             </h1>
+            <h1 className={isMobile ? "h1Mobile" : "h1Desktop"}>
+                <Parallax
+                    translateX={[0, -10]}
+                    shouldAlwaysCompleteAnimation={true}>
+                    By
+                </Parallax>
+            </h1>
+
+            <Parallax
+                className="cosmo"
+                shouldAlwaysCompleteAnimation={true}
+                scale={[1, 0.4]}>
+                <h1 className={isMobile ? "h1Mobile" : "h1Desktop"}>Cosmo</h1>
+            </Parallax>
         </span>
     );
 };
