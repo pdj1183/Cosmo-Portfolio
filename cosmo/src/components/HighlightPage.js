@@ -3,10 +3,10 @@ import { useState } from "react";
 import { Parallax } from "react-scroll-parallax";
 import { useMediaQuery } from "react-responsive";
 
-import first from "../assets/img/second11.jpeg";
-import second from "../assets/img/erik17.jpeg";
-import third from "../assets/img/sprk7.jpeg";
-import fourth from "../assets/img/465EAA08-C283-4A32-AE5C-FB4C529ABB37.jpeg";
+import first from "../assets/img/portrait/second11.jpeg";
+import second from "../assets/img/sport/erik17.jpeg";
+import third from "../assets/img/sport/sprk7.jpeg";
+import fourth from "../assets/img//auto/465EAA08-C283-4A32-AE5C-FB4C529ABB37.jpeg";
 
 export const HighlightPage = () => {
     const [height, setHeight] = useState(window.innerHeight);
@@ -50,8 +50,8 @@ export const HighlightPage = () => {
                 disabled={isMobile}
                 className="hello"
                 scale={[0.25, 1]}
-                startScroll={3 * height}
-                endScroll={4 * height}
+                startScroll={2.5 * height}
+                endScroll={3 * height}
                 shouldAlwaysCompleteAnimation>
                 <img className="high" src={fourth} alt="fourth" />
             </Parallax>

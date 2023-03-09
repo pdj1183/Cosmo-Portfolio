@@ -25,7 +25,7 @@ h1 {
     width: 100vw;
     align-items: center;
     justify-content: center;
-    background-image: url(../assets/img/ween40-2.jpg);
+    background-image: url(../assets/img/portrait/ween40-2.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -37,7 +37,7 @@ h1 {
 .coverMobile {
     height: 100vh;
     width: 100vw;
-    background-image: url(../assets/img/ween40-2.jpg);
+    background-image: url(../assets/img/portrait/ween40-2.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: auto;
@@ -53,8 +53,8 @@ h1 {
 }
 
 .cosmo {
-    top: -35px;
-    position: sticky;
+    padding-top: 2px;
+    top: -7vh;
 }
 
 .h1Mobile {
@@ -63,19 +63,4 @@ h1 {
 
 .h1Desktop {
     font-size: 12rem;
-}
-
-.cosmoMobile {
-    font-size: 7.5rem;
-    transform: translateY(-45.5vh);
-    top: 41.5vh;
-    position: sticky !important;
-    z-index: 1;
-}
-.cosmoDesktop {
-    font-size: 12rem;
-    transform: translateY(-45.5vh);
-    top: 41.5vh;
-    position: sticky !important;
-    z-index: 1;
 }
