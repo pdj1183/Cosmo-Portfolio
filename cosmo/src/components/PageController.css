@@ -1,0 +1,25 @@
+@font-face {
+    font-family: AKOODI;
+    src: url("../assets/fonts/AKOODIpersonal\ use.ttf");
+    font-weight: 500;
+}
+
+.navbar {
+    padding-bottom: 5vh;
+}
+
+.navbar li {
+    color: rgb(233, 247, 245);
+    display: inline-block;
+    list-style-type: none;
+    padding: 0.5em 0.5em 0.5em;
+    font-family: "AKOODI", sans-serif !important;
+}
+
+.navbar li:hover {
+    color: #c2d7eb;
+}
+
+.activeElement {
+    color: #000;
+}
