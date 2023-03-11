@@ -20,6 +20,7 @@ export const ImageGallery = ({ images }) => {
                 {images.map((image, index) => (
                     <a href={`#${index + 1}`}>
                         <img
+                            loading="eager"
                             id={`${index + 1}`}
                             src={image.src}
                             className={
