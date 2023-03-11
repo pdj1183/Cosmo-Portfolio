@@ -45,15 +45,6 @@ export const HighlightPage = () => {
                 translateX={[100, 0]}>
                 <img className="high" src={third} alt="third" />
             </Parallax>
-            <Parallax
-                disabled={isMobile}
-                className="hello"
-                scale={[0.25, 1]}
-                startScroll={2.5 * height}
-                endScroll={3 * height}
-                shouldAlwaysCompleteAnimation>
-                <img className="high" src={fourth} alt="fourth" />
-            </Parallax>
         </section>
     );
 };
