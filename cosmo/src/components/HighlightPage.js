@@ -4,7 +4,7 @@ import { Parallax } from "react-scroll-parallax";
 import { useMediaQuery } from "react-responsive";
 
 import first from "../assets/img/sport/erik4.jpeg";
-import second from "../assets/img/life/cactus7.jpeg";
+import second from "../assets/img/life/EE608E16-9E40-48C8-9BD4-94155FC66829.jpeg";
 import third from "../assets/img/life/camp16.jpeg";
 
 export const HighlightPage = () => {
