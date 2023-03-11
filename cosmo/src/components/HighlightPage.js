@@ -3,10 +3,9 @@ import { useState } from "react";
 import { Parallax } from "react-scroll-parallax";
 import { useMediaQuery } from "react-responsive";
 
-import first from "../assets/img/portrait/second11.jpeg";
-import second from "../assets/img/sport/erik17.jpeg";
-import third from "../assets/img/sport/sprk7.jpeg";
-import fourth from "../assets/img//auto/465EAA08-C283-4A32-AE5C-FB4C529ABB37.jpeg";
+import first from "../assets/img/sport/erik4.jpeg";
+import second from "../assets/img/life/cactus7.jpeg";
+import third from "../assets/img/life/camp16.jpeg";
 
 export const HighlightPage = () => {
     const [height, setHeight] = useState(window.innerHeight);
