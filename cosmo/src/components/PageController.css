@@ -10,16 +10,24 @@
     font-weight: 400;
 }
 
-ul {
+.navbar {
     margin: 0;
     padding: 0;
-}
-
-.navbar {
     padding-bottom: 5vh;
     top: 0;
     position: sticky;
     z-index: 3;
+    line-height: normal;
+}
+
+.desktop .main {
+    text-align: left;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
 }
 
 .mobile .navbar {
@@ -40,10 +48,18 @@ ul {
 .desktop .Cosmo {
     font-family: "Signature", sans-serif !important;
     font-size: 6rem;
-    margin-left: 55vw;
 }
 
-.navbar li.navItem:hover {
+table {
+    width: 100vw;
+}
+
+th.Cosmo {
+    text-align: right;
+    padding-right: 10px;
+}
+
+.navbar h2.element:hover {
     color: #c2d7eb;
 }
 
@@ -70,9 +86,11 @@ ul {
     display: none;
     position: absolute;
     background-color: #aa93e5;
+    border-radius: 20px;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    text-align: center;
 }
 
 .dropdown:hover .dropdown-content {

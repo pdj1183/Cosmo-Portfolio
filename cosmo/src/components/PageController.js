@@ -2,7 +2,7 @@ import "./PageController.css";
 import { ImageGallery } from "./ImageGallery.js";
 import { useMediaQuery } from "react-responsive";
 import { useState } from "react";
-import { Nav, ButtonGroup, DropdownButton } from "react-bootstrap";
+import { Nav } from "react-bootstrap";
 
 export const PageController = () => {
     const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
@@ -12,7 +12,7 @@ export const PageController = () => {
         return images;
     }
 
-    const [shown, setShown] = useState(1);
+    const [shown, setShown] = useState(4);
 
     const auto = Object.entries(
         importAll(
@@ -63,90 +63,107 @@ export const PageController = () => {
             <div className={isMobile ? "mobile" : "desktop"}>
                 <Nav className="navbar">
                     <ul>
-                        <li className="navItem">
-                            <h2
-                                className={
-                                    shown === 0 ? "activeElement" : "element"
-                                }
-                                onClick={() => {
-                                    setShown(0);
-                                }}>
-                                Automotive
-                            </h2>
-                        </li>
-                        <li className="navItem">
-                            <div className="dropdown">
-                                <h2
-                                    className={
-                                        shown > 0 && shown < 3
-                                            ? "activeElement"
-                                            : "element"
-                                    }>
-                                    Landscape
-                                </h2>
-                                <div className="dropdown-content">
-                                    <h2
-                                        className={
-                                            shown === 1
-                                                ? "activeElement"
-                                                : "element"
-                                        }
-                                        onClick={() => {
-                                            setShown(1);
-                                        }}>
-                                        First
-                                    </h2>
-                                    <h2
-                                        className={
-                                            shown === 2
-                                                ? "activeElement"
-                                                : "element"
-                                        }
-                                        onClick={() => {
-                                            setShown(2);
-                                        }}>
-                                        Second
-                                    </h2>
-                                </div>
-                            </div>
-                        </li>
-
-                        <li className="navItem">
-                            <h2
-                                className={
-                                    shown === 3 ? "activeElement" : "element"
-                                }
-                                onClick={() => {
-                                    setShown(3);
-                                }}>
-                                Life
-                            </h2>
-                        </li>
-                        <li className="navItem">
-                            <h2
-                                className={
-                                    shown === 4 ? "activeElement" : "element"
-                                }
-                                onClick={() => {
-                                    setShown(4);
-                                }}>
-                                Portraits
-                            </h2>
-                        </li>
-                        <li className="navItem">
-                            <h2
-                                className={
-                                    shown === 5 ? "activeElement" : "element"
-                                }
-                                onClick={() => {
-                                    setShown(5);
-                                }}>
-                                Sports
-                            </h2>
-                        </li>
-                        <li>
-                            <h2 className="Cosmo">Cosmo</h2>
-                        </li>
+                        <table className="main">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        <li className="navItem">
+                                            <h2
+                                                className={
+                                                    shown === 0
+                                                        ? "activeElement"
+                                                        : "element"
+                                                }
+                                                onClick={() => {
+                                                    setShown(0);
+                                                }}>
+                                                Automotive
+                                            </h2>
+                                        </li>
+                                        <li className="navItem">
+                                            <div className="dropdown">
+                                                <h2
+                                                    className={
+                                                        shown > 0 && shown < 3
+                                                            ? "activeElement"
+                                                            : "element"
+                                                    }>
+                                                    Landscape
+                                                </h2>
+                                                <div className="dropdown-content">
+                                                    <h2
+                                                        className={
+                                                            shown === 1
+                                                                ? "activeElement"
+                                                                : "element"
+                                                        }
+                                                        onClick={() => {
+                                                            setShown(1);
+                                                        }}>
+                                                        First
+                                                    </h2>
+                                                    <h2
+                                                        className={
+                                                            shown === 2
+                                                                ? "activeElement"
+                                                                : "element"
+                                                        }
+                                                        onClick={() => {
+                                                            setShown(2);
+                                                        }}>
+                                                        Second
+                                                    </h2>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li className="navItem">
+                                            <h2
+                                                className={
+                                                    shown === 3
+                                                        ? "activeElement"
+                                                        : "element"
+                                                }
+                                                onClick={() => {
+                                                    setShown(3);
+                                                }}>
+                                                Life
+                                            </h2>
+                                        </li>
+                                        <li className="navItem">
+                                            <h2
+                                                className={
+                                                    shown === 4
+                                                        ? "activeElement"
+                                                        : "element"
+                                                }
+                                                onClick={() => {
+                                                    setShown(4);
+                                                }}>
+                                                Portraits
+                                            </h2>
+                                        </li>
+                                        <li className="navItem">
+                                            <h2
+                                                className={
+                                                    shown === 5
+                                                        ? "activeElement"
+                                                        : "element"
+                                                }
+                                                onClick={() => {
+                                                    setShown(5);
+                                                }}>
+                                                Sports
+                                            </h2>
+                                        </li>
+                                    </th>
+                                    <th className="Cosmo">
+                                        <li>
+                                            <h2 className="Cosmo">Cosmo</h2>
+                                        </li>
+                                    </th>
+                                </tr>
+                            </thead>
+                        </table>
                     </ul>
                 </Nav>
                 {shown === 0 && <ImageGallery images={auto} />}

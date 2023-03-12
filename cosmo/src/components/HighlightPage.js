@@ -4,7 +4,7 @@ import { Parallax } from "react-scroll-parallax";
 import { useMediaQuery } from "react-responsive";
 
 import first from "../assets/img/sport/erik4.jpeg";
-import second from "../assets/img/life/cactus7.jpeg";
+import second from "../assets/img/life/EE608E16-9E40-48C8-9BD4-94155FC66829.jpeg";
 import third from "../assets/img/life/camp16.jpeg";
 
 export const HighlightPage = () => {
@@ -22,7 +22,7 @@ export const HighlightPage = () => {
                 disabled={isMobile}
                 className="hello"
                 startScroll={0}
-                endScroll={height}
+                endScroll={(4 * height) / 5}
                 shouldAlwaysCompleteAnimation
                 translateX={[-100, 0]}>
                 <img className="high" src={first} alt="first" />
@@ -32,7 +32,7 @@ export const HighlightPage = () => {
                 className="hello"
                 shouldAlwaysCompleteAnimation
                 startScroll={height}
-                endScroll={2 * height}
+                endScroll={1.5 * height}
                 translateX={[100, 0]}>
                 <img className="high" src={second} alt="second" />
             </Parallax>

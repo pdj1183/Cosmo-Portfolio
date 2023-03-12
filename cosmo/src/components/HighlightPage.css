@@ -3,9 +3,11 @@
     padding: 0;
 }
 
-.container {
-    width: 100%;
-    text-align: center;
+.highlight-page {
+    width: 100vw;
+    overflow-x: hidden;
+    background-image: linear-gradient(#f4ac7d, #80c1f6, #aa93e5);
+    align-items: center;
 }
 
 .high {
@@ -23,11 +25,4 @@
     text-align: center;
     overflow-x: hidden;
     z-index: 7 !important;
-}
-
-.highlight-page {
-    width: 100vw;
-    overflow-x: hidden;
-    background-image: linear-gradient(#f4ac7d, #80c1f6, #aa93e5);
-    align-items: center;
 }

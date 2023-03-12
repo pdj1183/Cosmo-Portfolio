@@ -18,7 +18,7 @@ export const ImageGallery = ({ images }) => {
         <section className="image-gallery">
             <div className={isMobile ? "mobile" : "desktop"}>
                 {images.map((image, index) => (
-                    <a href={`#${index + 1}`}>
+                    <a href={`#${index + 1}`} key={index}>
                         <img
                             loading="eager"
                             id={`${index + 1}`}

@@ -8,14 +8,14 @@ import { PageController } from "./components/PageController";
 
 function App() {
     return (
-        <div className="App">
+        <main>
             <ParallaxProvider>
                 <CoverScreen />
                 <Break />
                 <HighlightPage />
                 <PageController />
             </ParallaxProvider>
-        </div>
+        </main>
     );
 }
 
